@@ -1,11 +1,11 @@
 React Resume Challenge
 Unit 12
 
-GitHub Repository:
+GitHub Repository: https://github.com/Liz-Melcher/ReactResume 
 
 Render Deployed Page: 
 
-Description:
+Description: 
 
 Installation:
 
