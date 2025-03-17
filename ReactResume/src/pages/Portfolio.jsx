@@ -10,37 +10,37 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const projects = [
     {
       title: "Surf Report",
-      image: require("../../assets/images/IMG_0138.jpeg"),
+      image: ("../../assets/images/IMG_0138.jpeg"),
       deployedLink: "https://example.com/project1",
       githubLink: "https://github.com/username/project1",
     },
     {
       title: "Start Building Habits",
-      image: require("../../assets/images/IMG_0544.jpeg"),
+      image: ("../../assets/images/IMG_0544.jpeg"),
       deployedLink: "https://example.com/project2",
       githubLink: "https://github.com/username/project2",
     },
     {
       title: "Car Project",
-      image: require("../../assets/images/IMG_0566.jpeg"),
+      image: ("../../assets/images/IMG_0566.jpeg"),
       deployedLink: "https://example.com/project3",
       githubLink: "https://github.com/username/project3",
     },
     {
       title: "Beach Project",
-      image: require("../../assets/images/IMG_0712.jpeg"),
+      image: ("../../assets/images/IMG_0712.jpeg"),
       deployedLink: "https://example.com/project4",
       githubLink: "https://github.com/username/project4",
     },
     {
       title: "Red Lights Project",
-      image: require("../../assets/images/IMG_2423.jpeg"), 
+      image: ("../../assets/images/IMG_2423.jpeg"), 
       deployedLink: "https://example.com/project5",
       githubLink: "https://github.com/username/project5",
     },
     {
       title: "Flower Project",
-      image: require("../../assets/images/IMG_9742.jpeg"), 
+      image: ("../../assets/images/IMG_9742.jpeg"), 
       deployedLink: "https://example.com/project6",
       githubLink: "https://github.com/username/project6",
     },

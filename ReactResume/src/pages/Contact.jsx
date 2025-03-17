@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-export default function Resume() {
+export default function Contact() {
     // sets the state to track form inputs and errors 
   const [formData, setFormData] = useState({
     name: "",
@@ -29,7 +29,7 @@ export default function Resume() {
       [name]: value,
     });
 
-    // Live validation when user types
+    // Live validation when user types, if the value is strongly equal to "", indicate the field is required 
     if (value.trim() === "") {
       setErrors({ ...errors, [name]: "This field is required." });
     } else {
@@ -53,14 +53,13 @@ export default function Resume() {
     });
 
     if (!validateEmail(formData.email)) {
-      newErrors.email = "Please enter a valid email address.";
+      newErrors.email = "Enter a valid email address.";
     }
 
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      alert("Form submitted successfully!");
-      // Here you could send the form data to a backend API
+      alert("Form submitted");
     }
   };
 
