@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavTabs from './components/NavTabs';
-import Home from './components/pages/Home';
-import Resume from './components/pages/Resume';
-import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
+import NavTabs from './components/NavTabs'
+import Home from './pages/Home';
+import Resume from 'components/pages/Resume';
+import Portfolio from 'components/pages/Portfolio';
+import Contact from 'components/pages/Contact';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Footer from "./components/footer";
+import Footer from "components/footer";
 
 
 

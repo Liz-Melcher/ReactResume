@@ -3,8 +3,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 
 // Project data is an array
-//project.map displays the data 
-//image: require() so images load correctly when the app is built 
+// project.map displays the data from each project 
+// image: require() so images load correctly when the app is built 
 
 
 const projects = [
