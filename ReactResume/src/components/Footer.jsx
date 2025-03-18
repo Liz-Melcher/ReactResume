@@ -28,12 +28,12 @@ function Footer() {
           </a>
 
           <a 
-            href="https://bsky.app/profile/pretendhandle" 
+            href="https://www.youtube.com/@pretendhandle" 
             className="text-dark text-decoration-none" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <i className="bi bi-bluesky" role="img" aria-label="Bluesky"></i>
+            <i className="bi bi-youtube text-danger" role="img" aria-label="YouTube"></i>
           </a>
         </div>
       </div>
