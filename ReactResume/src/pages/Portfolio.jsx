@@ -3,8 +3,8 @@
 
 import React from 'react';
 import "bootstrap-icons/font/bootstrap-icons.css"; 
-import img1 from "../assets/images/IMG_0138.jpeg";
-import img2 from "../assets/images/IMG_0544.jpeg";
+import img1 from "../assets/images/resumepic.jpeg";
+import img2 from "../assets/images/weather.jpeg";
 import img3 from "../assets/images/IMG_0566.jpeg";
 import img4 from "../assets/images/IMG_0712.jpeg";
 import img5 from "../assets/images/HomePageFirstLoad.png";
