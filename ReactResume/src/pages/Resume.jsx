@@ -4,6 +4,7 @@
 
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import MockResume from "../assets/MockResume.pdf"
 
 function Resume() {
   return (
@@ -14,8 +15,10 @@ function Resume() {
           <p className="text-center">
             <Button 
               variant="primary" 
-              href="/assets/my-resume.pdf" 
-              download="My_Resume.pdf"
+              href="{MockResume}" 
+              download="MockResume.pdf"
+              target="_blank"
+              rel="noopener nonreferrer"
             >
               Download My Resume
             </Button>

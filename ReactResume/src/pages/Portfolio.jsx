@@ -1,48 +1,53 @@
 import React from 'react';
 import "bootstrap-icons/font/bootstrap-icons.css"; 
+import img1 from "../assets/images/IMG_0138.jpeg";
+import img2 from "../assets/images/IMG_0544.jpeg";
+import img3 from "../assets/images/IMG_0566.jpeg";
+import img4 from "../assets/images/IMG_0712.jpeg";
+import img5 from "../assets/images/IMG_2423.jpeg";
+import img6 from "../assets/images/IMG_9742.jpeg";
 
-
+//relative file paths do not work for react; the images have to be imported or in a public folder
 // Project data is an array
 // project.map displays the data from each project 
-// image: require() so images load correctly when the app is built 
 
 
 const projects = [
     {
-      title: "Surf Report",
-      image: ("../../assets/images/IMG_0138.jpeg"),
+      title: "React Resume Project",
+      image: img1,
       deployedLink: "https://example.com/project1",
-      githubLink: "https://github.com/username/project1",
+      githubLink: "https://github.com/Liz-Melcher/ReactResume",
     },
     {
-      title: "Start Building Habits",
-      image: ("../../assets/images/IMG_0544.jpeg"),
-      deployedLink: "https://example.com/project2",
-      githubLink: "https://github.com/username/project2",
+      title: "Server and API Challenge",
+      image: img2,
+      deployedLink: "https://serversandapichallengelizmelcher.onrender.com/",
+      githubLink: "https://github.com/Liz-Melcher/ServersAndAPIChallenge",
     },
     {
       title: "Car Project",
-      image: ("../../assets/images/IMG_0566.jpeg"),
-      deployedLink: "https://example.com/project3",
-      githubLink: "https://github.com/username/project3",
+      image: img3,
+      deployedLink: "https://youtu.be/ZrOsvzv63k8?si=m9-n3s-zCS82wrxy",
+      githubLink: "https://github.com/Liz-Melcher/VehcileBuilder",
     },
     {
-      title: "Beach Project",
-      image: ("../../assets/images/IMG_0712.jpeg"),
-      deployedLink: "https://example.com/project4",
-      githubLink: "https://github.com/username/project4",
+      title: "CLI Read Me Generator",
+      image: img4,
+      deployedLink: "https://youtu.be/by7-iBvAhJU",
+      githubLink: "https://github.com/Liz-Melcher/nodeJsChallenge",
     },
     {
-      title: "Red Lights Project",
-      image: ("../../assets/images/IMG_2423.jpeg"), 
-      deployedLink: "https://example.com/project5",
-      githubLink: "https://github.com/username/project5",
+      title: "Happy Tracker",
+      image: img5, 
+      deployedLink: "https://liz-melcher.github.io/HappyTracker/",
+      githubLink: "https://github.com/Liz-Melcher/HappyTracker",
     },
     {
-      title: "Flower Project",
-      image: ("../../assets/images/IMG_9742.jpeg"), 
-      deployedLink: "https://example.com/project6",
-      githubLink: "https://github.com/username/project6",
+      title: "SQL Practice",
+      image: img6, 
+      deployedLink: "https://youtu.be/Iu6Rp0INNeE",
+      githubLink: "https://github.com/Liz-Melcher/Unit10SQLChallenge",
     },
 ];
 

@@ -10,7 +10,7 @@ function Footer() {
       <div className="container">
         <div className="d-flex justify-content-center gap-3">
           <a 
-            href="https://github.com/pretendusername" 
+            href="https://github.com/Liz-Melcher" 
             className="text-dark text-decoration-none" 
             target="_blank" 
             rel="noopener noreferrer"
