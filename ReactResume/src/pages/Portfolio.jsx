@@ -7,7 +7,7 @@ import img1 from "../assets/images/IMG_0138.jpeg";
 import img2 from "../assets/images/IMG_0544.jpeg";
 import img3 from "../assets/images/IMG_0566.jpeg";
 import img4 from "../assets/images/IMG_0712.jpeg";
-import img5 from "../assets/images/IMG_2423.jpeg";
+import img5 from "../assets/images/HomePageFirstLoad.png";
 import img6 from "../assets/images/IMG_9742.jpeg";
 
 //relative file paths do not work for react; the images have to be imported or in a public folder
