@@ -3,13 +3,13 @@ Unit 12
 
 GitHub Repository: https://github.com/Liz-Melcher/ReactResume 
 
-Render Deployed Page: 
+Render Deployed Page: https://lizmelcherreactresume.onrender.com/
 
-Description: 
+Description: This is a follow up to an earlier project, to deploy a resume, this time using React and styling. 
 
-Installation:
+Installation: This project uses react. Use npm i to install the dependencies, then npm run build, or npm run dev. 
 
-License:
+License: MIT license. 
 
 Contributing: 
 There was no starter code and no images provided for this project.
