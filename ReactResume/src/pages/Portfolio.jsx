@@ -3,7 +3,7 @@
 
 import React from 'react';
 import "bootstrap-icons/font/bootstrap-icons.css"; 
-import img1 from "../assets/images/resumepic.jpeg";
+import img1 from "../assets/images/IMG_0138.jpeg";
 import img2 from "../assets/images/weather.jpeg";
 import img3 from "../assets/images/IMG_0566.jpeg";
 import img4 from "../assets/images/IMG_0712.jpeg";
@@ -68,7 +68,12 @@ export default function Portfolio() {
           <div key={index} className="col-md-4 mb-4">
             <div className="card shadow-sm">
               <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
-                <img src={project.image} className="card-img-top" alt={project.title} />
+                <img 
+                  src={project.image} 
+                  className="card-img-top" 
+                  alt={project.title} 
+                  style={{ height: "200px", objectFit: "cover" }} // 🔥 Fixes image sizes
+                />
               </a>
               <div className="card-body text-center">
                 <h5 className="card-title">{project.title}</h5>
